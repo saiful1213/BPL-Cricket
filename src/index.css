@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+   .ground {
+      background: linear-gradient(to right, rgb(109, 6, 6), rgb(4, 122, 4)), url('./assets/ground.jpg');
+      background-blend-mode: multiply;
+      background-size: cover;
+      background-position: center;
+   }
+}
