@@ -5,7 +5,7 @@
       "country": "Bangladesh",
       "salary": 1000,
       "age": 34,
-      "image": "../src/assets/mash.jfif"
+      "image": "./mash.jfif"
    },
    {
       "id": 2,
@@ -13,7 +13,7 @@
       "country": "Bangladesh",
       "salary": 800,
       "age": 33,
-      "image": "../src/assets/mushfiq.jpg"
+      "image": "./mushfiq.jpg"
    },
    {
       "id": 3,
@@ -21,7 +21,7 @@
       "country": "Bangladesh",
       "salary": 900,
       "age": 32,
-      "image": "../src/assets/tamim.jpg"
+      "image": "./tamim.jpg"
    },
    {
       "id": 4,
@@ -29,7 +29,7 @@
       "country": "Pakistan",
       "salary": 1100,
       "age": 40,
-      "image": "../src/assets/afridi.jfif"
+      "image": "./afridi.jfif"
    },
    {
       "id": 5,
@@ -37,7 +37,7 @@
       "country": "Bangladesh",
       "salary": 900,
       "age": 36,
-      "image": "../src/assets/riad.jpg"
+      "image": "./riad.jpg"
    },
    {
       "id": 6,
@@ -45,6 +45,6 @@
       "country": "Pakistan",
       "salary": 900,
       "age": 32,
-      "image": "../src/assets/amir.jfif"
+      "image": "./amir.jfif"
    }
 ]

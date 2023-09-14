@@ -1,7 +1,9 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/jsx-key */
 import { useState } from "react";
 import Cards from "../Cards/Cards";
 import Cart from "../Cart/Cart";
+import swal from 'sweetalert';
 
 const Main = () => {
 
@@ -14,13 +16,13 @@ const Main = () => {
       let cost = card.salary;
 
       if (isExist) {
-         return alert('player exist')
+         return swal('player exist')
       } else {
          selectedPlayers.forEach(player => {
             cost += player.salary;
          })
          if(cost > 4000){
-            return alert('you dont have enough money');
+            return swal('you dont have enough money');
          }
          setCost(cost);
          setSelectedPlayers([...selectedPlayers, card]);
